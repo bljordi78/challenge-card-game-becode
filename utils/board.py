@@ -13,6 +13,10 @@ class Board:
         self.active_cards = active_cards
         self.history_cards = history_cards
     
+    def __str__(self):
+        print("Here is the list of participants:\n")
+        print(*self.players, sep="\n")       
+
     def start_game(self):
         deck = Deck()
         deck.fill_deck()

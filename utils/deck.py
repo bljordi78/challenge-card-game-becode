@@ -12,7 +12,7 @@ class Deck:
         value = ['A', 2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K']
         
         self.obj = Card(colour, icon, value)
-    
+
     def fill_deck(self):
         """ Iterate through all lists to create a list of unique combinations"""
         deck = []
